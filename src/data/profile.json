@@ -5,7 +5,9 @@
   "contact": {
     "phone": "+91-9910115656",
     "email": "gethepc@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/prashant-chauhan-2b5a0b11/"
+    "linkedin": "https://www.linkedin.com/in/prashant-chauhan-2b5a0b11/",
+    "github": "https://github.com/gethepc",
+    "website": "https://gethepc.github.io/prashant-chauhan-portfolio"
   },
   "experience_years": 19,
   "summary": "Senior Cloud Architect with 19+ years of experience in hybrid cloud platforms, automation frameworks, and AI-driven enterprise solutions. Expertise in Azure, GCP, OpenStack, FinOps, Terraform, and AI-powered RAG architectures. Proven track record of delivering multi-country transformations and reducing incident resolution time by 40%.",

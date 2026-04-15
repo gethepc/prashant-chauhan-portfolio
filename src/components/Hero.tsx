@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Mail, ExternalLink } from "lucide-react";
+import { ArrowRight, Mail, ExternalLink, GitFork, Globe } from "lucide-react";
 import profileData from "@/data/profile.json";
 import { SystemMap } from "@/components/SystemMap";
 
@@ -90,6 +90,24 @@ export function Hero() {
               aria-label="LinkedIn"
             >
               <ExternalLink className="w-5 h-5 text-blue-400" />
+            </a>
+            <a
+              href={profileData.contact.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 w-12 items-center justify-center rounded-xl glass text-white hover:border-white/40 transition-all duration-200"
+              aria-label="GitHub"
+            >
+              <GitFork className="w-5 h-5 text-white" />
+            </a>
+            <a
+              href={profileData.contact.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 w-12 items-center justify-center rounded-xl glass text-white hover:border-cyan-400/40 transition-all duration-200"
+              aria-label="Portfolio Website"
+            >
+              <Globe className="w-5 h-5 text-cyan-400" />
             </a>
           </motion.div>
 

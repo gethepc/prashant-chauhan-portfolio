@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import profileData from "@/data/profile.json";
-import { Mail, ExternalLink, Phone } from "lucide-react";
+import { Mail, ExternalLink, Phone, GitFork, Globe } from "lucide-react";
 
 export function Contact() {
   return (
@@ -43,6 +43,22 @@ export function Contact() {
             className="inline-flex h-14 items-center gap-2 px-8 rounded-xl glass text-white font-semibold hover:border-cyan-500/40 transition-all"
           >
             <ExternalLink className="w-5 h-5 text-blue-400" /> LinkedIn Profile
+          </a>
+          <a
+            href={profileData.contact.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-14 items-center gap-2 px-8 rounded-xl glass text-white font-semibold hover:border-white/40 transition-all"
+          >
+            <GitFork className="w-5 h-5 text-white" /> GitHub Profile
+          </a>
+          <a
+            href={profileData.contact.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-14 items-center gap-2 px-8 rounded-xl glass text-white font-semibold hover:border-cyan-400/40 transition-all"
+          >
+            <Globe className="w-5 h-5 text-cyan-400" /> Portfolio Website
           </a>
           <a
             href={`tel:${profileData.contact.phone}`}
