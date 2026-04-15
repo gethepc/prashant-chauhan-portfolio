@@ -6,6 +6,7 @@ import { Briefcase, MapPin } from "lucide-react";
 
 const companyAccents: Record<string, string> = {
   "Landis+Gyr": "tag-blue",
+  "Landis+Gyr (2019)": "tag-blue",
   "Airtel Africa": "tag-cyan",
   "Orange Business Services": "tag-violet",
   "Tech Mahindra": "tag-gold",
@@ -13,6 +14,7 @@ const companyAccents: Record<string, string> = {
 
 const companyGeo: Record<string, string> = {
   "Landis+Gyr": "India / UK / Global",
+  "Landis+Gyr (2019)": "India / UK",
   "Airtel Africa": "14 Countries / Africa",
   "Orange Business Services": "India / Global",
   "Tech Mahindra": "India",

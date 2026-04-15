@@ -182,6 +182,20 @@
       ]
     },
     {
+      "company": "Landis+Gyr (2019)",
+      "role": "Cloud Expert / Architect",
+      "duration": "2019 – 2021",
+      "responsibilities": [
+        "Architected scalable and secure hybrid cloud infrastructure across Azure, GCP, and OpenStack for enterprise workloads",
+        "Designed and implemented Azure landing zones with governance frameworks, IAM, and network architecture",
+        "Led infrastructure modernisation initiatives including workload migration and performance optimisation",
+        "Implemented patch management and lifecycle management frameworks across cloud environments",
+        "Developed FinOps dashboards delivering cost visibility, utilisation tracking, and optimisation insights",
+        "Standardised cloud governance, security, and compliance practices aligned with industry standards",
+        "Enabled scalable, repeatable infrastructure deployment using automation tools and best practices"
+      ]
+    },
+    {
       "company": "Orange Business Services",
       "role": "Cloud Expert / Architect",
       "duration": "2012 – 2019",

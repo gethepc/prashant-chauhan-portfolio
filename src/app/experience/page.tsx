@@ -3,17 +3,19 @@ import profileData from "@/data/profile.json";
 import { ArrowLeft, Briefcase, MapPin } from "lucide-react";
 
 const GEO: Record<string, string> = {
-  "Landis+Gyr":           "India / UK / Global",
-  "Airtel Africa":        "14 Countries / Africa",
+  "Landis+Gyr":               "India / UK / Global",
+  "Landis+Gyr (2019)":        "India / UK",
+  "Airtel Africa":            "14 Countries / Africa",
   "Orange Business Services": "India / Global",
-  "Tech Mahindra":        "India",
+  "Tech Mahindra":            "India",
 };
 
 const ACCENT: Record<string, string> = {
-  "Landis+Gyr":           "#3B82F6",
-  "Airtel Africa":        "#22D3EE",
+  "Landis+Gyr":               "#3B82F6",
+  "Landis+Gyr (2019)":        "#60A5FA",
+  "Airtel Africa":            "#22D3EE",
   "Orange Business Services": "#8B5CF6",
-  "Tech Mahindra":        "#d4af37",
+  "Tech Mahindra":            "#d4af37",
 };
 
 export default function ExperiencePage() {
