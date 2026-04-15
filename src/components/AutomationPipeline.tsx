@@ -8,8 +8,6 @@ const PIPELINES = [
     name: "LPMS",
     category: "Linux Patch Management System",
     color: "#3B82F6",
-    animDelay: "0s",
-    animDuration: "2.4s",
     steps: [
       { label: "Server Queue",   icon: Cpu },
       { label: "Schedule",       icon: Zap },
@@ -23,8 +21,6 @@ const PIPELINES = [
     name: "Oracle RAC",
     category: "Database Cluster Automation",
     color: "#8B5CF6",
-    animDelay: "0.6s",
-    animDuration: "2.8s",
     steps: [
       { label: "Init Cluster",  icon: Layers },
       { label: "ASM Config",    icon: Cpu },
@@ -38,8 +34,6 @@ const PIPELINES = [
     name: "VM Auto-Provisioning",
     category: "Cloud / Virtualization Automation",
     color: "#22D3EE",
-    animDelay: "1.2s",
-    animDuration: "2.6s",
     steps: [
       { label: "VM Request",       icon: Zap },
       { label: "Template Deploy",  icon: Layers },
@@ -53,8 +47,6 @@ const PIPELINES = [
     name: "AFA",
     category: "Enterprise Automation Framework",
     color: "#d4af37",
-    animDelay: "1.8s",
-    animDuration: "3.0s",
     steps: [
       { label: "Trigger",     icon: Zap },
       { label: "Orchestrate", icon: Layers },
@@ -146,26 +138,11 @@ export function AutomationPipeline() {
                   })}
                 </div>
 
-                {/* Animated packet track */}
+                {/* Static progress track */}
                 <div className="relative h-1 w-full rounded-full overflow-hidden mb-3" style={{ background: `${pipeline.color}15` }}>
-                  {/* Fill bar */}
                   <div
-                    className="absolute top-0 left-0 h-full rounded-full pipeline-fill"
-                    style={{
-                      background: `linear-gradient(to right, ${pipeline.color}60, ${pipeline.color})`,
-                      animationDelay: pipeline.animDelay,
-                      animationDuration: pipeline.animDuration,
-                    }}
-                  />
-                  {/* Glowing packet dot */}
-                  <div
-                    className="absolute top-1/2 -translate-y-1/2 w-3 h-3 -mt-px rounded-full pipeline-packet"
-                    style={{
-                      background: pipeline.color,
-                      boxShadow: `0 0 8px ${pipeline.color}, 0 0 16px ${pipeline.color}80`,
-                      animationDelay: pipeline.animDelay,
-                      animationDuration: pipeline.animDuration,
-                    }}
+                    className="absolute top-0 left-0 h-full w-full rounded-full"
+                    style={{ background: `linear-gradient(to right, ${pipeline.color}60, ${pipeline.color})` }}
                   />
                 </div>
 
