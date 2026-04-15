@@ -13,7 +13,7 @@ const companyAccents: Record<string, string> = {
 };
 
 const companyGeo: Record<string, string> = {
-  "Landis+Gyr": "India / Global",
+  "Landis+Gyr": "India",
   "Landis+Gyr (2019)": "India",
   "Airtel Africa": "14 Countries / Africa",
   "Orange Business Services": "India / Global",

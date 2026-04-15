@@ -3,7 +3,7 @@ import profileData from "@/data/profile.json";
 import { ArrowLeft, Briefcase, MapPin } from "lucide-react";
 
 const GEO: Record<string, string> = {
-  "Landis+Gyr":               "India / Global",
+  "Landis+Gyr":               "India",
   "Landis+Gyr (2019)":        "India",
   "Airtel Africa":            "14 Countries / Africa",
   "Orange Business Services": "India / Global",
