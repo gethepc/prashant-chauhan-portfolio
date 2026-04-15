@@ -1,0 +1,581 @@
+{
+  "name": "Prashant Chauhan",
+  "title": "Cloud Architect | AI Automation Builder | Enterprise Transformation Leader",
+  "location": "Noida, India",
+  "contact": {
+    "phone": "+91-9910115656",
+    "email": "gethepc@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/prashant-chauhan-2b5a0b11/"
+  },
+  "experience_years": 19,
+  "summary": "Senior Cloud Architect with 19+ years of experience in hybrid cloud platforms, automation frameworks, and AI-driven enterprise solutions. Expertise in Azure, GCP, OpenStack, FinOps, Terraform, and AI-powered RAG architectures. Proven track record of delivering multi-country transformations and reducing incident resolution time by 40%.",
+  "positioning": {
+    "primary_identity": "Enterprise Cloud & AI Architect",
+    "secondary_identity": "Automation & Platform Builder",
+    "tertiary_identity": "Transformation Leader",
+    "core_strengths": [
+      "Hybrid Cloud Architecture",
+      "AI/ML & RAG Systems",
+      "Automation Frameworks",
+      "FinOps & Cost Optimization",
+      "Observability & Incident Intelligence",
+      "Enterprise Platform Engineering"
+    ],
+    "value_proposition": "Designing scalable, intelligent, and automated enterprise systems that reduce operational complexity and enhance performance."
+  },
+  "projects": [
+    {
+      "project_name": "IHS (Intelligent Healing Solution)",
+      "category": "AI + Automation + Observability Platform",
+      "description": "Enterprise-grade AI platform for intelligent incident detection, correlation, root cause analysis, and auto-healing.",
+      "problem_statement": "High MTTR, manual troubleshooting, alert noise, lack of intelligent automation.",
+      "solution": [
+        "Alert classification using ML",
+        "RAG-based knowledge retrieval",
+        "Automated resolution workflows",
+        "Confidence-based decision engine",
+        "Interactive AI chatbot for operations"
+      ],
+      "architecture": {
+        "frontend": "Angular",
+        "backend": "FastAPI",
+        "databases": [
+          "PostgreSQL + pgvector",
+          "MongoDB"
+        ],
+        "ai_stack": [
+          "LangChain",
+          "Ollama (local LLM)",
+          "Custom ML models"
+        ],
+        "orchestration": "Airflow",
+        "containerization": "Docker / Kubernetes"
+      },
+      "key_features": [
+        "Auto-healing workflows",
+        "AI-based root cause analysis",
+        "Historical resolution matching",
+        "Real-time analytics",
+        "Interactive AI assistant"
+      ],
+      "business_impact": [
+        "Reduced incident resolution time",
+        "Improved operational efficiency",
+        "Reduced manual intervention",
+        "Enhanced system reliability"
+      ]
+    },
+    {
+      "project_name": "RightScale FinOps Engine",
+      "category": "Cloud Cost Optimization Platform",
+      "description": "Multi-cloud FinOps platform for cost visibility, governance, and optimization.",
+      "features": [
+        "Cost dashboards",
+        "Rightsizing recommendations",
+        "Usage analytics",
+        "Budget governance",
+        "Automation-based cost control"
+      ],
+      "technologies": [
+        "Azure",
+        "GCP",
+        "AWS",
+        "Automation Scripts",
+        "Analytics Engines"
+      ],
+      "impact": [
+        "Improved cost visibility",
+        "Reduced cloud spend",
+        "Enabled financial accountability"
+      ]
+    },
+    {
+      "project_name": "AFA (Automation Framework & Agents)",
+      "category": "Enterprise Automation Platform",
+      "description": "Standardized automation framework for infrastructure and operations workflows.",
+      "features": [
+        "Reusable automation modules",
+        "Workflow orchestration",
+        "Validation mechanisms",
+        "Agent-based execution"
+      ],
+      "technologies": [
+        "Python",
+        "Terraform",
+        "Ansible",
+        "Automation pipelines"
+      ],
+      "impact": [
+        "Improved deployment speed",
+        "Reduced human error",
+        "Standardized operations"
+      ]
+    },
+    {
+      "project_name": "ClassFlux",
+      "category": "AI-powered School Platform",
+      "description": "AI-driven school management and engagement platform.",
+      "features": [
+        "AI assistant (AskNoddy)",
+        "Teacher dashboards",
+        "Parent engagement tools",
+        "Analytics & reporting"
+      ],
+      "target_users": [
+        "Schools",
+        "Teachers",
+        "Parents",
+        "Students"
+      ],
+      "impact": [
+        "Improved engagement",
+        "Data-driven decisions",
+        "Automation in school operations"
+      ]
+    },
+    {
+      "project_name": "FluxCampus",
+      "category": "AI Learning & Career Platform",
+      "description": "AI-based platform for students focusing on learning, career guidance, and growth.",
+      "features": [
+        "AI career recommendations",
+        "Student dashboards",
+        "Funding & scheme suggestions",
+        "Parent-student integration"
+      ],
+      "impact": [
+        "Personalized learning paths",
+        "Career guidance automation"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Landis+Gyr",
+      "role": "Senior Cloud Architect",
+      "duration": "2023 – Present",
+      "responsibilities": [
+        "Architect hybrid cloud platforms (Azure, GCP, OpenStack)",
+        "Design RAG-based AI systems and auto-healing frameworks",
+        "Build enterprise landing zones and governance models",
+        "Drive FinOps strategy across cloud environments",
+        "Lead cross-functional platform engineering teams",
+        "Present architecture blueprints to CTO and leadership",
+        "Mentor architects and engineers on cloud-native practices",
+        "Own programme delivery from design to production rollout"
+      ]
+    },
+    {
+      "company": "Airtel Africa",
+      "role": "Cloud Architect – SME",
+      "duration": "2021 – 2023",
+      "responsibilities": [
+        "Led cloud transformation across 14 African countries",
+        "Managed cross-functional teams of engineers and vendors",
+        "Deployed Citrix VDI across multiple OPCOs at enterprise scale",
+        "Drove programme governance and delivery milestone reporting",
+        "Built automation frameworks reducing provisioning time by 60%",
+        "Aligned technical strategy with regional MD and CXO stakeholders",
+        "Established monitoring and L3/L4 operations support models"
+      ]
+    },
+    {
+      "company": "Orange Business Services",
+      "role": "Cloud Expert / Architect",
+      "duration": "2012 – 2019",
+      "responsibilities": [
+        "Led architecture design and delivery for global enterprise clients",
+        "Managed infrastructure teams and vendor relationships",
+        "Implemented automation reducing operational overhead significantly",
+        "Coordinated global operations across distributed teams",
+        "Delivered SLA governance and executive reporting for clients",
+        "Drove standardization across multi-region infrastructure estates"
+      ]
+    },
+    {
+      "company": "Tech Mahindra",
+      "role": "Senior Linux Administrator",
+      "duration": "2007 – 2012",
+      "responsibilities": [
+        "Led Linux infrastructure team for enterprise accounts",
+        "Managed critical incident resolution and escalation handling",
+        "Built automation scripts replacing manual operational tasks",
+        "Coordinated with project managers on delivery commitments",
+        "Mentored junior administrators on system operations"
+      ]
+    }
+  ],
+  "certifications": {
+    "google_cloud": [
+      "Professional Machine Learning Engineer",
+      "Professional Cloud Architect",
+      "Security Professional"
+    ],
+    "microsoft": [
+      "Azure Solutions Architect",
+      "Microsoft Certified Trainer (MCT)"
+    ],
+    "aws": [
+      "Solutions Architect Associate"
+    ],
+    "redhat": [
+      "RHCE",
+      "RHCSA",
+      "RHCOSP"
+    ],
+    "vmware": [
+      "VMware Certified Professional"
+    ],
+    "ai": [
+      "Anthropic AI Fluency",
+      "Claude with Vertex AI"
+    ],
+    "others": [
+      "ITIL v3",
+      "PRINCE2 Practitioner",
+      "CSM Agile",
+      "Six Sigma Green Belt"
+    ]
+  },
+  "skills": {
+    "cloud_platforms": [
+      "Azure",
+      "GCP",
+      "AWS",
+      "OpenStack"
+    ],
+    "ai_ml": [
+      "RAG",
+      "LLMs",
+      "LangChain",
+      "Vector DBs",
+      "Ollama"
+    ],
+    "automation": [
+      "Terraform",
+      "Ansible",
+      "Python"
+    ],
+    "data": [
+      "PostgreSQL",
+      "MongoDB",
+      "pgvector"
+    ],
+    "observability": [
+      "Monitoring",
+      "Alerting",
+      "Incident Management"
+    ],
+    "finops": [
+      "Cost Optimization",
+      "Governance",
+      "Rightsizing"
+    ],
+    "devops": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "leadership": [
+      "Team Leadership",
+      "Strategy",
+      "Architecture Design"
+    ]
+  },
+  "achievements": [
+    "Reduced incident resolution time by 40%",
+    "Delivered multi-country infrastructure transformation",
+    "Built enterprise automation frameworks",
+    "Enabled FinOps governance across cloud platforms",
+    "Deployed large-scale VDI systems",
+    "Received multiple industry awards"
+  ],
+  "themes": [
+    "AI-driven operations and auto-healing systems",
+    "Private LLMs and data security",
+    "Automation-first enterprise architecture",
+    "FinOps-driven cloud design",
+    "Scalable hybrid cloud governance"
+  ],
+  "automation_systems": [
+    {
+      "name": "LPMS (Linux Patch Management System)",
+      "category": "Infrastructure Automation",
+      "description": "Enterprise-grade automated patch management system for Linux environments across distributed infrastructure.",
+      "capabilities": [
+        "Automated patch scheduling and deployment",
+        "Dependency and conflict resolution",
+        "Rollback mechanisms",
+        "Compliance tracking and reporting",
+        "Zero/minimal downtime patching strategies"
+      ],
+      "technologies": [
+        "Ansible",
+        "Shell Scripting",
+        "Cron",
+        "YUM/APT",
+        "Python"
+      ],
+      "impact": [
+        "Reduced manual patching effort",
+        "Improved compliance and security posture",
+        "Standardized patch lifecycle across environments"
+      ]
+    },
+    {
+      "name": "Oracle RAC Automation",
+      "category": "Database Automation",
+      "description": "End-to-end automation for Oracle RAC setup, configuration, and lifecycle management.",
+      "capabilities": [
+        "Cluster provisioning",
+        "ASM disk configuration",
+        "Node synchronization",
+        "Failover setup and validation",
+        "Performance tuning automation"
+      ],
+      "technologies": [
+        "Shell",
+        "Ansible",
+        "Oracle Tools"
+      ],
+      "impact": [
+        "Reduced setup time significantly",
+        "Improved reliability and consistency",
+        "Minimized human errors in complex setups"
+      ]
+    },
+    {
+      "name": "VMware & OpenStack Auto VM Provisioning",
+      "category": "Cloud / Virtualization Automation",
+      "description": "End-to-end automated VM provisioning including OS installation, configuration, and application readiness.",
+      "capabilities": [
+        "Auto VM provisioning from templates",
+        "Network and storage configuration",
+        "OS hardening and baseline setup",
+        "Application stack deployment",
+        "Integration with monitoring and backup systems"
+      ],
+      "technologies": [
+        "VMware vSphere",
+        "OpenStack",
+        "Terraform",
+        "Ansible",
+        "Python"
+      ],
+      "impact": [
+        "Accelerated infrastructure provisioning",
+        "Standardized builds across environments",
+        "Reduced provisioning time from hours to minutes"
+      ]
+    },
+    {
+      "name": "Enterprise Automation Framework (AFA)",
+      "category": "Platform Automation",
+      "description": "Reusable automation framework for infrastructure, operations, and validation workflows.",
+      "capabilities": [
+        "Workflow orchestration",
+        "Validation pipelines",
+        "Reusable modules",
+        "Agent-based execution",
+        "Cross-platform integration"
+      ],
+      "technologies": [
+        "Python",
+        "Terraform",
+        "Ansible"
+      ],
+      "impact": [
+        "Standardized enterprise automation",
+        "Reduced operational overhead",
+        "Improved deployment consistency"
+      ]
+    }
+  ],
+  "cloud_architecture": {
+    "domains": [
+      "Hybrid Cloud Architecture",
+      "Multi-Cloud Strategy",
+      "Cloud-Native Design",
+      "Microservices Architecture",
+      "Distributed Systems Design"
+    ],
+    "core_capabilities": [
+      "Designing scalable and resilient cloud platforms",
+      "High availability and disaster recovery architecture",
+      "Secure network design (VPC, subnets, private endpoints)",
+      "Identity and access management (IAM models)",
+      "Policy-driven governance frameworks",
+      "Performance and cost optimization"
+    ],
+    "platforms": [
+      "Azure",
+      "Google Cloud Platform",
+      "AWS",
+      "OpenStack"
+    ],
+    "advanced_skills": [
+      "Cloud workload optimization",
+      "Latency-aware architecture design",
+      "Horizontal and vertical scaling strategies",
+      "Multi-region deployments",
+      "Observability-driven architecture"
+    ]
+  },
+  "landing_zone": {
+    "description": "Design and implementation of enterprise-grade landing zones ensuring governance, security, and scalability.",
+    "capabilities": [
+      "Subscription and project hierarchy design",
+      "IAM and RBAC model implementation",
+      "Network architecture (hub-spoke, private endpoints)",
+      "Policy enforcement (Azure Policy / GCP Org Policies)",
+      "Logging and monitoring integration",
+      "Security baseline implementation",
+      "Cost governance and tagging strategies"
+    ],
+    "frameworks": [
+      "Azure Landing Zone",
+      "GCP Landing Zone",
+      "Enterprise Blueprint Models"
+    ],
+    "outcomes": [
+      "Standardized cloud environments",
+      "Improved governance and compliance",
+      "Accelerated onboarding of workloads"
+    ]
+  },
+  "migration_expertise": {
+    "migration_types": [
+      "Lift and Shift",
+      "Replatforming",
+      "Refactoring",
+      "Hybrid Migration"
+    ],
+    "capabilities": [
+      "Assessment and discovery of workloads",
+      "Dependency mapping",
+      "Migration planning and strategy",
+      "Execution using automation tools",
+      "Post-migration optimization"
+    ],
+    "tools": [
+      "Azure Migrate",
+      "Custom automation scripts",
+      "Terraform",
+      "Ansible"
+    ],
+    "outcomes": [
+      "Reduced migration risks",
+      "Improved performance post-migration",
+      "Cost optimization after migration"
+    ]
+  },
+  "operations_expertise": {
+    "support_levels": [
+      "L3",
+      "L4"
+    ],
+    "capabilities": [
+      "Deep root cause analysis",
+      "Critical incident management",
+      "Performance tuning",
+      "System optimization",
+      "Platform stability engineering",
+      "Escalation handling and resolution"
+    ],
+    "specializations": [
+      "Cloud platform issues",
+      "Infrastructure failures",
+      "Automation failures",
+      "Database and application performance",
+      "Network-level troubleshooting"
+    ],
+    "approach": [
+      "Automation-first troubleshooting",
+      "AI-assisted incident analysis",
+      "Proactive monitoring and alerting",
+      "Continuous improvement loops"
+    ]
+  },
+  "global_delivery": {
+    "countries": [
+      "India",
+      "United Kingdom",
+      "Australia",
+      "Austria"
+    ],
+    "delivery_scope": [
+      "Multi-region cloud architecture",
+      "Cross-country infrastructure standardization",
+      "Global compliance alignment",
+      "Distributed operations support",
+      "Timezone-aware automation systems"
+    ],
+    "enterprise_scale": [
+      "Telecom environments (Airtel Africa)",
+      "Utility domain (Landis+Gyr)",
+      "Global enterprise IT systems"
+    ]
+  },
+  "leadership": {
+    "headline": "19+ years leading engineers, programmes, and enterprise transformation",
+    "team_leadership": {
+      "summary": "Built and led cross-functional engineering teams spanning cloud, infrastructure, automation, and AI disciplines — across geographies from India and UK to Africa and Europe.",
+      "highlights": [
+        "Led teams of 10–25+ engineers on enterprise cloud and automation programmes",
+        "Defined team structure, roles, and career growth frameworks for cloud practices",
+        "Ran architecture review boards and technical governance forums",
+        "Drove knowledge transfer and mentorship for junior architects and engineers",
+        "Built high-performance remote and distributed delivery teams"
+      ]
+    },
+    "project_delivery": {
+      "summary": "End-to-end ownership of complex, multi-stakeholder programmes — from design and planning through execution, hypercare, and continuous improvement.",
+      "highlights": [
+        "Delivered cloud transformations across 14+ countries for Airtel Africa",
+        "Owned programme lifecycle from discovery to production — with zero critical project failures",
+        "Applied PRINCE2 and Agile delivery frameworks to manage scope, risk, and milestones",
+        "Managed delivery timelines, escalations, and stakeholder sign-offs at executive level",
+        "Drove cross-functional alignment between InfoSec, Finance, Platform, and Business teams"
+      ]
+    },
+    "stakeholder_management": {
+      "summary": "Operated at both L4 technical depth and board-level strategic clarity — bridging the gap between engineering execution and executive decision-making.",
+      "highlights": [
+        "Presented architecture blueprints and transformation roadmaps to CTOs, CIOs, and MDs",
+        "Delivered programme steering and monthly executive reporting",
+        "Managed vendor relationships, contracts, and SLA governance",
+        "Collaborated with InfoSec, Procurement, and Finance on enterprise risk and compliance",
+        "Represented engineering perspective in C-suite and board-level conversations"
+      ]
+    },
+    "delivery_methodologies": [
+      "PRINCE2 Practitioner",
+      "Agile / Scrum",
+      "Kanban",
+      "ITIL v3",
+      "Six Sigma Green Belt"
+    ],
+    "key_metrics": [
+      {
+        "label": "Countries Delivered",
+        "value": "14+",
+        "note": "Africa, Europe, Asia"
+      },
+      {
+        "label": "Team Size Led",
+        "value": "25+",
+        "note": "Engineers & Architects"
+      },
+      {
+        "label": "Programmes Delivered",
+        "value": "10+",
+        "note": "Enterprise transformations"
+      },
+      {
+        "label": "Years Leading",
+        "value": "12+",
+        "note": "Cross-functional teams"
+      }
+    ]
+  }
+}

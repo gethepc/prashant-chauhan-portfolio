@@ -1,22 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Prashant Chauhan — Portfolio Website
 
-## Getting Started
+Professional portfolio for **Prashant Chauhan**, Cloud & AI Automation Architect with 19+ years of experience in hybrid cloud, landing zones, infrastructure modernisation, automation, and intelligent operations platforms.
 
-First, run the development server:
+## Live Website
+
+> Coming soon via GitHub Pages + custom domain
+
+## About
+
+This website showcases:
+
+- Cloud architecture and landing zone design (GCP / Azure / AWS)
+- Infrastructure automation and operational excellence
+- AI-powered observability and self-healing platforms (Intelligent Healing System)
+- Product engineering — ClassFlux, FluxCampus
+- Certifications, awards, and professional achievements
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router) + TypeScript
+- **Styling:** Tailwind CSS v4
+- **Animation:** Framer Motion
+- **Icons:** Lucide React
+- **Deployment:** GitHub Pages (planned)
+
+## Featured Projects
+
+| Project | Description |
+|---|---|
+| Intelligent Healing System (IHS) | AI-driven self-healing operations platform |
+| ClassFlux | SaaS education platform |
+| FluxCampus | Campus management product |
+| Cloud Landing Zones | Enterprise multi-cloud architecture |
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
+
+Planned via GitHub Pages with a custom GoDaddy domain.  
+GitHub Pages is enabled in the repository settings after the first push.
+
+## Author
+
+**Prashant Chauhan**  
+GitHub: [@gethepc](https://github.com/gethepc)
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
