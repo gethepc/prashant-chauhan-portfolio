@@ -35,7 +35,7 @@ const achievements = [
     icon: <Cpu className="w-8 h-8" />,
     value: 5, suffix: "+",
     label: "Flagship Platforms Built",
-    desc: "IHS, FinOps Engine, AFA, FluxCampus — enterprise AI and cloud platforms from design to production.",
+    desc: "IHS, AI-Powered Cloud FinOps Platform, AFA, FluxCampus — production platforms and evolving cloud initiatives.",
     color: "text-violet-400", glow: "from-violet-500/20", tagClass: "tag-violet",
   },
   {
@@ -56,7 +56,7 @@ const achievements = [
     icon: <Award className="w-8 h-8" />,
     value: 19, suffix: "+",
     label: "Years Enterprise Delivery",
-    desc: "Deep L3/L4 expertise spanning telecom, utilities, and global enterprise IT.",
+    desc: "Deep L3/L4 expertise spanning IBM Cloud, telecom, utilities, and global enterprise IT.",
     color: "text-gold", glow: "from-yellow-500/20", tagClass: "tag-gold",
   },
 ];

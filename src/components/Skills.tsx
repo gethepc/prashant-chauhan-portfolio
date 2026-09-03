@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import profileData from "@/data/profile.json";
-import { Cloud, Cpu, Settings, Database, BarChart3, Shield, Users, Server } from "lucide-react";
+import { Cloud, Cpu, Settings, Database, BarChart3, Shield, Users, Server, Lock } from "lucide-react";
 
 interface SkillGroup {
   key: string;
@@ -13,6 +13,7 @@ interface SkillGroup {
 }
 
 const iconMap: Record<string, React.ReactNode> = {
+  ibm_cloud_platform_security: <Lock className="w-5 h-5" />,
   cloud_platforms: <Cloud className="w-5 h-5" />,
   ai_ml: <Cpu className="w-5 h-5" />,
   automation: <Settings className="w-5 h-5" />,
@@ -24,6 +25,7 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 const tagClassMap: Record<string, string> = {
+  ibm_cloud_platform_security: "tag-blue",
   cloud_platforms: "tag-blue",
   ai_ml: "tag-violet",
   automation: "tag-cyan",
@@ -35,6 +37,7 @@ const tagClassMap: Record<string, string> = {
 };
 
 const labelMap: Record<string, string> = {
+  ibm_cloud_platform_security: "IBM Cloud & Platform Security",
   cloud_platforms: "Cloud Platforms",
   ai_ml: "AI / ML / RAG",
   automation: "Automation",

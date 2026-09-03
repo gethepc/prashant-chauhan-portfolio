@@ -47,10 +47,17 @@ export default function AboutPage() {
           <h1 className="font-sans text-4xl md:text-6xl font-black text-white leading-tight mb-6">
             Architecting Intelligent<br />Enterprise Systems
           </h1>
-          <p className="text-[var(--color-muted)] text-xl leading-relaxed max-w-3xl">
-            Senior Cloud Architect with {profileData.experience_years}+ years of experience. Specialising in hybrid cloud
-            platforms, AI-powered automation, and enterprise transformation — from L4 deep operations
-            to CXO-level strategic leadership.
+          <p className="text-[var(--color-muted)] text-xl leading-relaxed max-w-3xl mb-6">
+            Senior Cloud Platform Architect with {profileData.experience_years}+ years of experience designing
+            secure, resilient, scalable, and intelligent enterprise platforms. Currently working across IBM Cloud
+            platform engineering, with a focus on secrets management, security automation, cloud cost optimisation,
+            platform resilience, observability, and AI-assisted operations.
+          </p>
+          <p className="text-[var(--color-muted)] text-lg leading-relaxed max-w-3xl">
+            I have delivered technology transformation across telecommunications, utilities, IBM Cloud,
+            and global enterprise environments, with hands-on ownership of public and private cloud
+            platforms, secrets management, platform security, landing zones, FinOps, observability,
+            resilient infrastructure, and AI-powered automation.
           </p>
         </div>
 

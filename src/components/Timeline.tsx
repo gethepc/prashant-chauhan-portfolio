@@ -5,6 +5,7 @@ import profileData from "@/data/profile.json";
 import { Briefcase, MapPin } from "lucide-react";
 
 const companyAccents: Record<string, string> = {
+  "IBM Cloud": "tag-blue",
   "Landis+Gyr": "tag-blue",
   "Landis+Gyr (2019)": "tag-blue",
   "Airtel Africa": "tag-cyan",
@@ -13,6 +14,7 @@ const companyAccents: Record<string, string> = {
 };
 
 const companyGeo: Record<string, string> = {
+  "IBM Cloud": "Bengaluru, India",
   "Landis+Gyr": "India",
   "Landis+Gyr (2019)": "India",
   "Airtel Africa": "14 Countries / Africa",
@@ -66,6 +68,9 @@ export function Timeline() {
                       </div>
                     </div>
                   </div>
+                  {"description" in exp && typeof exp.description === "string" && (
+                    <p className="text-sm text-gray-300 leading-relaxed mb-4">{exp.description}</p>
+                  )}
                   <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-1.5">
                     {exp.responsibilities.map((r, idx) => (
                       <li key={idx} className="flex items-start gap-2 text-sm text-gray-300">
@@ -74,6 +79,13 @@ export function Timeline() {
                       </li>
                     ))}
                   </ul>
+                  {"technologies" in exp && Array.isArray(exp.technologies) && (
+                    <div className="flex flex-wrap gap-1.5 mt-4 pt-4 border-t border-white/5">
+                      {exp.technologies.map((tech: string) => (
+                        <span key={tech} className={`tag ${accent}`}>{tech}</span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </motion.div>
             );

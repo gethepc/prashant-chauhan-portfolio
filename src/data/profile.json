@@ -1,7 +1,7 @@
 {
   "name": "Prashant Chauhan",
-  "title": "Cloud Architect | AI Automation Builder | Enterprise Transformation Leader",
-  "location": "Noida, India",
+  "title": "Senior Cloud Platform Architect | AI Automation Builder | Enterprise Transformation Leader",
+  "location": "Bengaluru, India",
   "contact": {
     "phone": "+91-9910115656",
     "email": "gethepc@gmail.com",
@@ -10,9 +10,9 @@
     "website": "https://gethepc.github.io/prashant-chauhan-portfolio"
   },
   "experience_years": 19,
-  "summary": "Senior Cloud Architect with 19+ years of experience in hybrid cloud platforms, automation frameworks, and AI-driven enterprise solutions. Expertise in Azure, GCP, OpenStack, FinOps, Terraform, and AI-powered RAG architectures. Proven track record of delivering multi-country transformations and reducing incident resolution time by 40%.",
+  "summary": "Senior Cloud Platform Architect with 19+ years of experience designing secure, resilient, scalable, and intelligent enterprise platforms. Currently working across IBM Cloud platform engineering, with a focus on secrets management, security automation, cloud cost optimisation, platform resilience, observability, and AI-assisted operations.",
   "positioning": {
-    "primary_identity": "Enterprise Cloud & AI Architect",
+    "primary_identity": "Senior Cloud Platform Architect",
     "secondary_identity": "Automation & Platform Builder",
     "tertiary_identity": "Transformation Leader",
     "core_strengths": [
@@ -68,27 +68,38 @@
       ]
     },
     {
-      "project_name": "RightScale FinOps Engine",
-      "category": "Cloud Cost Optimization Platform",
-      "description": "Multi-cloud FinOps platform for cost visibility, governance, and optimization.",
+      "project_name": "AI-Powered Cloud FinOps Platform",
+      "category": "Cloud Cost Optimisation — Evolving Initiative",
+      "description": "An intelligent multi-cloud FinOps and governance platform designed to improve cost visibility, identify optimisation opportunities, strengthen financial governance, and provide AI-assisted insights across complex cloud environments.",
       "features": [
-        "Cost dashboards",
-        "Rightsizing recommendations",
-        "Usage analytics",
-        "Budget governance",
-        "Automation-based cost control"
+        "Unified multi-cloud cost visibility",
+        "Cost allocation and chargeback/showback",
+        "Resource rightsizing recommendations",
+        "Idle and underutilised resource detection",
+        "Cost forecasting and budget tracking",
+        "Cloud spending anomaly detection",
+        "Policy-driven FinOps governance",
+        "Automated optimisation recommendations",
+        "Executive-level cost and efficiency insights",
+        "AI-assisted analysis of cloud utilisation and spending patterns"
       ],
       "technologies": [
+        "IBM Cloud",
         "Azure",
-        "GCP",
+        "Google Cloud",
         "AWS",
-        "Automation Scripts",
-        "Analytics Engines"
+        "Python",
+        "AI/ML",
+        "Analytics",
+        "Automation",
+        "FinOps"
       ],
       "impact": [
-        "Improved cost visibility",
-        "Reduced cloud spend",
-        "Enabled financial accountability"
+        "Improved multi-cloud cost visibility",
+        "Intelligent resource optimisation recommendations",
+        "Proactive cost anomaly identification",
+        "Policy-based financial governance",
+        "Executive-level FinOps insights"
       ]
     },
     {
@@ -153,9 +164,44 @@
   ],
   "experience": [
     {
+      "company": "IBM Cloud",
+      "role": "Senior Cloud Platform Architect",
+      "duration": "June 2026 – Present",
+      "description": "Working across IBM Cloud platform engineering with a focus on secrets management, security automation, cloud cost optimisation, platform resilience, observability, and operational improvement.",
+      "responsibilities": [
+        "Lead architecture assessments and operational improvements for HashiCorp Vault-based secrets management across IBM Cloud",
+        "Design and develop Shared Secret Automation for secure credential onboarding, rotation, validation, and lifecycle management",
+        "Build extensible automation patterns that can support different infrastructure platforms and additional secret types",
+        "Review Vault deployment architecture, security controls, resilience, backup readiness, compliance posture, and operational processes",
+        "Investigate complex issues involving Vault, Kubernetes, authentication, networking, load balancers, and dependent platform services",
+        "Improve telemetry, monitoring, incident correlation, root-cause analysis, and operational documentation",
+        "Collaborate with engineering, compute, security, operations, and platform teams to strengthen service reliability",
+        "Standardise deployment, onboarding, troubleshooting, and operational processes through architecture documentation and automation",
+        "Explore AI-assisted operations and intelligent automation opportunities across IBM Cloud infrastructure",
+        "Provide technical leadership and India-time operational coverage for globally distributed teams",
+        "Contribute to the architecture and development of an AI-powered Cloud FinOps platform that improves multi-cloud cost visibility, governance, forecasting, anomaly detection, resource optimisation, and identification of potential savings opportunities"
+      ],
+      "technologies": [
+        "IBM Cloud",
+        "HashiCorp Vault",
+        "Red Hat OpenShift",
+        "Kubernetes",
+        "Linux",
+        "Python",
+        "Terraform",
+        "CI/CD",
+        "Secrets Management",
+        "Security Automation",
+        "Observability",
+        "Telemetry",
+        "FinOps",
+        "AI/ML"
+      ]
+    },
+    {
       "company": "Landis+Gyr",
       "role": "Senior Cloud Architect",
-      "duration": "2023 – Present",
+      "duration": "2023 – March 2026",
       "responsibilities": [
         "Architect hybrid cloud platforms (Azure, GCP, OpenStack)",
         "Design RAG-based AI systems and auto-healing frameworks",
@@ -254,6 +300,18 @@
     ]
   },
   "skills": {
+    "ibm_cloud_platform_security": [
+      "IBM Cloud",
+      "HashiCorp Vault",
+      "Red Hat OpenShift",
+      "Kubernetes",
+      "Secrets Management",
+      "Credential Rotation",
+      "Security Automation",
+      "Platform Resilience",
+      "Telemetry",
+      "Observability"
+    ],
     "cloud_platforms": [
       "Azure",
       "GCP",
@@ -283,13 +341,16 @@
       "Incident Management"
     ],
     "finops": [
-      "Cost Optimization",
+      "Multi-Cloud Cost Visibility",
+      "Cost Optimisation",
+      "Rightsizing",
+      "Forecasting",
+      "Anomaly Detection",
       "Governance",
-      "Rightsizing"
+      "AI-Assisted FinOps"
     ],
     "devops": [
       "Docker",
-      "Kubernetes",
       "CI/CD"
     ],
     "leadership": [
@@ -424,6 +485,7 @@
       "Performance and cost optimization"
     ],
     "platforms": [
+      "IBM Cloud",
       "Azure",
       "Google Cloud Platform",
       "AWS",
@@ -527,6 +589,7 @@
       "Timezone-aware automation systems"
     ],
     "enterprise_scale": [
+      "IBM Cloud platform engineering",
       "Telecom environments (Airtel Africa)",
       "Utility domain (Landis+Gyr)",
       "Global enterprise IT systems"

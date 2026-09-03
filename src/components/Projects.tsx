@@ -8,21 +8,21 @@ import { ArrowUpRight, Layers, Cpu, DollarSign, BookOpen, GraduationCap, X, Arro
 
 const PROJECT_SLUGS: Record<string, string> = {
   "IHS (Intelligent Healing Solution)": "ihs",
-  "RightScale FinOps Engine": "finops",
+  "AI-Powered Cloud FinOps Platform": "finops",
   "AFA (Automation Framework & Agents)": "afa",
   "FluxCampus": "fluxcampus",
 };
 
 const projectIcons: Record<string, React.ReactNode> = {
   "IHS (Intelligent Healing Solution)": <Cpu className="w-6 h-6 text-violet-400" />,
-  "RightScale FinOps Engine": <DollarSign className="w-6 h-6 text-yellow-400" />,
+  "AI-Powered Cloud FinOps Platform": <DollarSign className="w-6 h-6 text-yellow-400" />,
   "AFA (Automation Framework & Agents)": <Layers className="w-6 h-6 text-blue-400" />,
   "FluxCampus": <GraduationCap className="w-6 h-6 text-cyan-400" />,
 };
 
 const accentColors: Record<string, { tag: string; color: string }> = {
   "IHS (Intelligent Healing Solution)":     { tag: "tag-violet", color: "#8B5CF6" },
-  "RightScale FinOps Engine":               { tag: "tag-gold",   color: "#d4af37" },
+  "AI-Powered Cloud FinOps Platform":       { tag: "tag-gold",   color: "#d4af37" },
   "AFA (Automation Framework & Agents)":    { tag: "tag-blue",   color: "#3B82F6" },
   "FluxCampus":                             { tag: "tag-cyan",   color: "#22D3EE" },
 };

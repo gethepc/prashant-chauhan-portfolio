@@ -13,8 +13,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Prashant Chauhan | Cloud Architect & AI Builder",
-  description: "Enterprise Cloud Architect, AI/ML Automation Builder, and Transformation Leader with 19+ years experience.",
+  title: "Prashant Chauhan | Senior Cloud Platform Architect",
+  description: "Senior Cloud Platform Architect at IBM Cloud. 19+ years designing secure, resilient platforms, secrets management, FinOps, and AI-assisted operations.",
 };
 
 export default function RootLayout({

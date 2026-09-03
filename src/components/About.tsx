@@ -49,9 +49,10 @@ export function About() {
           className="space-y-5 text-[var(--color-muted)] text-lg leading-relaxed"
         >
           <p>
-            I specialize in bridging complex cloud infrastructure with next-generation AI operations.
-            As a Senior Cloud Architect with {profileData.experience_years}+ years of experience,
-            my focus is designing <strong className="text-white font-semibold">resilient ecosystems that scale, heal, and govern themselves.</strong>
+            Senior Cloud Platform Architect with {profileData.experience_years}+ years of experience
+            designing secure, resilient, scalable, and intelligent enterprise platforms. Currently working
+            across IBM Cloud platform engineering, with a focus on secrets management, security automation,
+            cloud cost optimisation, platform resilience, observability, and AI-assisted operations.
           </p>
           <p>
             My approach combines deep technical execution at L3/L4 depth with strategic clarity
@@ -59,8 +60,10 @@ export function About() {
             that are not just built, but operationalized and continuously improved.
           </p>
           <p>
-            I&apos;ve delivered across telecom, utilities, and global enterprise — with hands-on ownership
-            of cloud migrations, landing zones, FinOps frameworks, and AI-powered automation systems.
+            I have delivered technology transformation across telecommunications, utilities, IBM Cloud,
+            and global enterprise environments, with hands-on ownership of public and private cloud
+            platforms, secrets management, platform security, landing zones, FinOps, observability,
+            resilient infrastructure, and AI-powered automation.
           </p>
 
           <div className="pt-4 flex flex-wrap gap-2">

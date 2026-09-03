@@ -26,7 +26,7 @@ function Counter({ value, suffix = "" }: { value: number; suffix?: string }) {
 const kpis = [
   { icon: <Award className="w-7 h-7" />, value: 19, suffix: "+", label: "Years Experience", color: "text-gold", accent: "tag-gold" },
   { icon: <Zap className="w-7 h-7" />, value: 40, suffix: "%", label: "Faster Incident Resolution", color: "text-cyan-400", accent: "tag-cyan" },
-  { icon: <Layers className="w-7 h-7" />, value: 4, suffix: "+", label: "Cloud Platforms", color: "text-blue-400", accent: "tag-blue" },
+  { icon: <Layers className="w-7 h-7" />, value: 5, suffix: "+", label: "Cloud Platforms", color: "text-blue-400", accent: "tag-blue" },
   { icon: <Globe className="w-7 h-7" />, value: 4, suffix: "+", label: "Countries Delivered", color: "text-violet-400", accent: "tag-violet" },
   { icon: <Shield className="w-7 h-7" />, value: 30, suffix: "+", label: "Certifications Held", color: "text-emerald-400", accent: "tag-cyan" },
 ];

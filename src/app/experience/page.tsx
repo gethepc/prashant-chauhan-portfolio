@@ -3,6 +3,7 @@ import profileData from "@/data/profile.json";
 import { ArrowLeft, Briefcase, MapPin } from "lucide-react";
 
 const GEO: Record<string, string> = {
+  "IBM Cloud":                "Bengaluru, India",
   "Landis+Gyr":               "India",
   "Landis+Gyr (2019)":        "India",
   "Airtel Africa":            "14 Countries / Africa",
@@ -11,6 +12,7 @@ const GEO: Record<string, string> = {
 };
 
 const ACCENT: Record<string, string> = {
+  "IBM Cloud":                "#0F62FE",
   "Landis+Gyr":               "#3B82F6",
   "Landis+Gyr (2019)":        "#60A5FA",
   "Airtel Africa":            "#22D3EE",
@@ -85,6 +87,9 @@ export default function ExperiencePage() {
                     </div>
                   </div>
 
+                  {"description" in exp && typeof exp.description === "string" && (
+                    <p className="text-sm text-gray-300 leading-relaxed mb-4">{exp.description}</p>
+                  )}
                   <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2">
                     {exp.responsibilities.map((r, j) => (
                       <li key={j} className="flex items-start gap-2 text-sm text-gray-300">
@@ -93,6 +98,19 @@ export default function ExperiencePage() {
                       </li>
                     ))}
                   </ul>
+                  {"technologies" in exp && Array.isArray(exp.technologies) && (
+                    <div className="flex flex-wrap gap-1.5 mt-4 pt-4" style={{ borderTop: `1px solid ${color}22` }}>
+                      {exp.technologies.map((tech: string) => (
+                        <span
+                          key={tech}
+                          className="px-2.5 py-1 rounded-full text-xs font-semibold"
+                          style={{ background: color + "14", border: `1px solid ${color}40`, color }}
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             );

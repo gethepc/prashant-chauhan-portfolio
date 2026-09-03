@@ -5,7 +5,7 @@ import { ArrowRight, Mail, ExternalLink, GitFork, Globe } from "lucide-react";
 import profileData from "@/data/profile.json";
 import { SystemMap } from "@/components/SystemMap";
 
-const tags = ["Cloud Architect", "AI Builder", "FinOps", "RAG/LLM", "Enterprise Automation", "Landing Zones", "Hybrid Cloud"];
+const tags = ["IBM Cloud", "HashiCorp Vault", "Cloud Security", "AI Automation", "FinOps", "RAG/LLM", "Enterprise Automation", "Landing Zones", "Hybrid Cloud", "Platform Resilience"];
 
 export function Hero() {
   return (
@@ -29,7 +29,7 @@ export function Hero() {
             className="flex items-center gap-2 w-fit"
           >
             <span className="flex h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
-            <span className="section-overline">Available for consulting & leadership roles</span>
+            <span className="section-overline">Open to technology leadership, architecture collaboration & industry networking</span>
           </motion.div>
 
           <motion.h1
@@ -47,7 +47,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="flex flex-wrap gap-2"
           >
-            {["Cloud Architect", "AI Automation Builder", "Enterprise Transformation Leader"].map((t) => (
+            {["Senior Cloud Platform Architect", "AI Automation Builder", "Enterprise Transformation Leader"].map((t) => (
               <span key={t} className="tag tag-blue font-sans text-sm px-3 py-1">{t}</span>
             ))}
           </motion.div>
@@ -58,8 +58,8 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="text-[var(--color-muted)] text-lg leading-relaxed max-w-xl"
           >
-            Architecting scalable hybrid cloud platforms, AI-driven automation systems,
-            and enterprise-grade intelligent solutions across global environments.
+            Architecting secure and resilient cloud platforms, AI-driven automation systems,
+            intelligent FinOps solutions, and enterprise-grade platform services across global environments.
           </motion.p>
 
           {/* CTA row */}

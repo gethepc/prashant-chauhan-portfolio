@@ -5,7 +5,7 @@ import { ArrowLeft, CheckCircle2, Layers } from "lucide-react";
 
 const SLUG_MAP: Record<string, string> = {
   ihs:        "IHS (Intelligent Healing Solution)",
-  finops:     "RightScale FinOps Engine",
+  finops:     "AI-Powered Cloud FinOps Platform",
   afa:        "AFA (Automation Framework & Agents)",
   fluxcampus: "FluxCampus",
 };

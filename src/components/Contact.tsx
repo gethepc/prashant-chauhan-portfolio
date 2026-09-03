@@ -18,8 +18,8 @@ export function Contact() {
             Together.
           </h2>
           <p className="text-[var(--color-muted)] text-xl mb-12 max-w-2xl mx-auto">
-            Ready to architect platforms that scale, heal, and govern themselves?
-            Reach out to discuss cloud transformation, AI systems, or enterprise leadership.
+            Open to architecture collaboration and industry networking around secure cloud platforms,
+            FinOps, secrets management, and AI-assisted operations.
           </p>
         </motion.div>
 
