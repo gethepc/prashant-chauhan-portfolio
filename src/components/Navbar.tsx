@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, Sun, Moon } from "lucide-react";
-import profileData from "@/data/profile.json";
+import { Portrait } from "@/components/Portrait";
 
 const navLinks = [
   { href: "#about",          label: "About"        },
@@ -55,7 +55,8 @@ export function Navbar() {
         className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled ? "glass border-b border-white/5 py-3" : "py-5"}`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-          <a href="#" className="font-sans font-bold text-lg text-white tracking-tight hover:text-cyan-300 transition-colors">
+          <a href="#" className="flex items-center gap-2.5 font-sans font-bold text-lg text-white tracking-tight hover:text-cyan-300 transition-colors">
+            <Portrait variant="nav" />
             PC<span className="text-cyan-400">.</span>
           </a>
 

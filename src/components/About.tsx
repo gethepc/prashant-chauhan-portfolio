@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import profileData from "@/data/profile.json";
 import { CheckCircle } from "lucide-react";
+import { Portrait } from "@/components/Portrait";
 
 const pillars = [
   {
@@ -74,6 +75,23 @@ export function About() {
         </motion.div>
 
         <div className="flex flex-col gap-5">
+          <motion.div
+            initial={{ opacity: 0, x: 24 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="grad-border group max-w-xs mx-auto lg:mx-0"
+          >
+            <div className="glass rounded-2xl p-2 group-hover:bg-white/[0.02] transition-colors">
+              <Portrait variant="about" />
+              <div className="px-3 py-3">
+                <p className="font-sans text-sm font-bold text-white">{profileData.name}</p>
+                <p className="text-xs text-[var(--color-muted)] mt-0.5">
+                  Senior Cloud Platform Architect · IBM Cloud · Bengaluru
+                </p>
+              </div>
+            </div>
+          </motion.div>
           {pillars.map((p, i) => (
             <motion.div
               key={p.title}

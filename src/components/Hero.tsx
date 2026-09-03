@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Mail, ExternalLink, GitFork, Globe } from "lucide-react";
 import profileData from "@/data/profile.json";
 import { SystemMap } from "@/components/SystemMap";
+import { Portrait } from "@/components/Portrait";
 
 const tags = ["IBM Cloud", "HashiCorp Vault", "Cloud Security", "AI Automation", "FinOps", "RAG/LLM", "Enterprise Automation", "Landing Zones", "Hybrid Cloud", "Platform Resilience"];
 
@@ -32,14 +33,17 @@ export function Hero() {
             <span className="section-overline">Open to technology leadership, architecture collaboration & industry networking</span>
           </motion.div>
 
-          <motion.h1
+          <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="font-sans text-5xl sm:text-6xl xl:text-7xl font-bold tracking-tight text-white leading-[1.08]"
+            className="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-6"
           >
-            {profileData.name}
-          </motion.h1>
+            <Portrait variant="hero" />
+            <h1 className="font-sans text-5xl sm:text-6xl xl:text-7xl font-bold tracking-tight text-white leading-[1.08]">
+              {profileData.name}
+            </h1>
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 24 }}

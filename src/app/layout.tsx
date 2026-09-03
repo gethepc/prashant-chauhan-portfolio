@@ -13,8 +13,14 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gethepc.github.io/prashant-chauhan-portfolio"),
   title: "Prashant Chauhan | Senior Cloud Platform Architect",
   description: "Senior Cloud Platform Architect at IBM Cloud. 19+ years designing secure, resilient platforms, secrets management, FinOps, and AI-assisted operations.",
+  openGraph: {
+    title: "Prashant Chauhan | Senior Cloud Platform Architect",
+    description: "Senior Cloud Platform Architect at IBM Cloud.",
+    images: ["/prashant-chauhan.jpg"],
+  },
 };
 
 export default function RootLayout({

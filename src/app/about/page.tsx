@@ -1,6 +1,7 @@
 import Link from "next/link";
 import profileData from "@/data/profile.json";
-import { ArrowLeft, CheckCircle2 } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
+import { Portrait } from "@/components/Portrait";
 
 const PILLARS = [
   {
@@ -37,7 +38,14 @@ export default function AboutPage() {
         </Link>
 
         {/* Hero */}
-        <div className="mb-16">
+        <div className="mb-16 grid md:grid-cols-[220px_1fr] gap-8 items-start">
+          <div
+            className="rounded-2xl p-2 max-w-[220px]"
+            style={{ background: "var(--color-surface)", border: "1px solid rgba(59,130,246,0.22)" }}
+          >
+            <Portrait variant="about" />
+          </div>
+          <div>
           <div
             className="inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-5"
             style={{ background: "#3B82F620", border: "1px solid #3B82F640", color: "#3B82F6" }}
@@ -59,6 +67,7 @@ export default function AboutPage() {
             platforms, secrets management, platform security, landing zones, FinOps, observability,
             resilient infrastructure, and AI-powered automation.
           </p>
+          </div>
         </div>
 
         {/* Positioning */}
