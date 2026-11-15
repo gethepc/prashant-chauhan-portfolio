@@ -2,7 +2,9 @@
 
 import Image from "next/image";
 
-const PORTRAIT_SRC = "/prashant-chauhan.jpg";
+const BASE_PATH =
+  process.env.NODE_ENV === "production" ? "/prashant-chauhan-portfolio" : "";
+const PORTRAIT_SRC = `${BASE_PATH}/prashant-chauhan.jpg`;
 const PORTRAIT_ALT =
   "Professional headshot of Prashant Chauhan, Senior Cloud Platform Architect";
 

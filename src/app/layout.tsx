@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
+const basePath =
+  process.env.NODE_ENV === "production" ? "/prashant-chauhan-portfolio" : "";
+const siteOrigin = "https://gethepc.github.io";
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -13,13 +17,13 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gethepc.github.io/prashant-chauhan-portfolio"),
+  metadataBase: new URL("/prashant-chauhan-portfolio", siteOrigin),
   title: "Prashant Chauhan | Senior Cloud Platform Architect",
   description: "Senior Cloud Platform Architect at IBM Cloud. 19+ years designing secure, resilient platforms, secrets management, FinOps, and AI-assisted operations.",
   openGraph: {
     title: "Prashant Chauhan | Senior Cloud Platform Architect",
     description: "Senior Cloud Platform Architect at IBM Cloud.",
-    images: ["/prashant-chauhan.jpg"],
+    images: [new URL(`${basePath}/prashant-chauhan.jpg`, siteOrigin)],
   },
 };
 
