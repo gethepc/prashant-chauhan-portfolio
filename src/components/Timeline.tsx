@@ -9,6 +9,7 @@ const companyAccents: Record<string, string> = {
   "Landis+Gyr": "tag-blue",
   "Landis+Gyr (2019)": "tag-blue",
   "Airtel Africa": "tag-cyan",
+  "Bharti Airtel": "tag-cyan",
   "Orange Business Services": "tag-violet",
   "Tech Mahindra": "tag-gold",
 };
@@ -18,6 +19,7 @@ const companyGeo: Record<string, string> = {
   "Landis+Gyr": "India",
   "Landis+Gyr (2019)": "India",
   "Airtel Africa": "14 Countries / Africa",
+  "Bharti Airtel": "India",
   "Orange Business Services": "India / Global",
   "Tech Mahindra": "India",
 };
@@ -31,7 +33,7 @@ export function Timeline() {
         <div className="section-overline mb-3">Experience</div>
         <h2 className="font-sans text-4xl md:text-5xl font-bold text-white animated-underline">Enterprise Delivery Timeline</h2>
         <p className="text-[var(--color-muted)] text-lg mt-4 max-w-xl">
-          19+ years of design, delivery, and leadership across global enterprise environments.
+          {profileData.experience_years}+ years of design, delivery, and leadership across global enterprise environments.
         </p>
       </motion.div>
 

@@ -7,6 +7,7 @@ const GEO: Record<string, string> = {
   "Landis+Gyr":               "India",
   "Landis+Gyr (2019)":        "India",
   "Airtel Africa":            "14 Countries / Africa",
+  "Bharti Airtel":            "India",
   "Orange Business Services": "India / Global",
   "Tech Mahindra":            "India",
 };
@@ -16,6 +17,7 @@ const ACCENT: Record<string, string> = {
   "Landis+Gyr":               "#3B82F6",
   "Landis+Gyr (2019)":        "#60A5FA",
   "Airtel Africa":            "#22D3EE",
+  "Bharti Airtel":            "#22D3EE",
   "Orange Business Services": "#8B5CF6",
   "Tech Mahindra":            "#d4af37",
 };

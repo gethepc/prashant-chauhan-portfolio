@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { Portrait } from "@/components/Portrait";
 
 const NODES = [
-  { id: "center",  x: 220, y: 200, r: 32, label: "PC",         sub: "19+ Yrs Architect",  color: "#3B82F6", isCenter: true,  stats: null },
+  { id: "center",  x: 220, y: 200, r: 32, label: "PC",         sub: "20+ Yrs Architect",  color: "#3B82F6", isCenter: true,  stats: null },
   { id: "ihs",     x: 220, y: 62,  r: 22, label: "IHS",        sub: "AI Auto-Healing",    color: "#22D3EE", isCenter: false, stats: { category: "AI + Automation + Observability", impact: "40% faster resolution",    tech: ["FastAPI","LangChain","Ollama","pgvector"],  href: "/projects/ihs" } },
   { id: "afa",     x: 372, y: 112, r: 20, label: "AFA",        sub: "Automation Fwk",     color: "#8B5CF6", isCenter: false, stats: { category: "Platform Automation",             impact: "Zero-touch operations",    tech: ["Terraform","Ansible","Python"],             href: "/projects/afa" } },
   { id: "finops",  x: 362, y: 302, r: 20, label: "FinOps",     sub: "AI Cost Platform",   color: "#d4af37", isCenter: false, stats: { category: "AI-Powered Cloud FinOps Platform", impact: "Multi-cloud cost visibility", tech: ["IBM Cloud","Azure","GCP","AWS"],             href: "/projects/finops" } },

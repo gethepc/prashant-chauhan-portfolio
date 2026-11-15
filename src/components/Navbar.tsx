@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, Sun, Moon } from "lucide-react";
+import Link from "next/link";
 import { Portrait } from "@/components/Portrait";
 
 const navLinks = [
@@ -62,6 +63,12 @@ export function Navbar() {
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-1">
+            <Link
+              href="/certifications"
+              className="px-3 py-1.5 rounded-lg text-sm text-[var(--color-muted)] hover:text-white hover:bg-white/5 transition-all font-medium"
+            >
+              Certifications
+            </Link>
             {navLinks.map((l) => (
               <a
                 key={l.href}
@@ -103,6 +110,13 @@ export function Navbar() {
       {open && (
         <div className="fixed inset-0 z-40 flex flex-col pt-20 glass lg:hidden" onClick={() => setOpen(false)}>
           <nav className="flex flex-col gap-1 px-6 py-6">
+            <Link
+              href="/certifications"
+              className="px-4 py-3 rounded-xl text-white font-medium hover:bg-white/5 transition-colors"
+              onClick={() => setOpen(false)}
+            >
+              Certifications
+            </Link>
             {navLinks.map((l) => (
               <a
                 key={l.href}

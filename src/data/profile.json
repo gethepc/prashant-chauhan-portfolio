@@ -9,8 +9,8 @@
     "github": "https://github.com/gethepc",
     "website": "https://gethepc.github.io/prashant-chauhan-portfolio"
   },
-  "experience_years": 19,
-  "summary": "Senior Cloud Platform Architect with 19+ years of experience designing secure, resilient, scalable, and intelligent enterprise platforms. Currently working across IBM Cloud platform engineering, with a focus on secrets management, security automation, cloud cost optimisation, platform resilience, observability, and AI-assisted operations.",
+  "experience_years": 20,
+  "summary": "Senior Cloud Platform Architect with 20+ years of experience designing secure, resilient, scalable, and intelligent enterprise platforms. Currently working across IBM Cloud platform engineering, with a focus on secrets management, security automation, cloud cost optimisation, platform resilience, observability, and AI-assisted operations.",
   "positioning": {
     "primary_identity": "Senior Cloud Platform Architect",
     "secondary_identity": "Automation & Platform Builder",
@@ -264,6 +264,14 @@
         "Built automation scripts replacing manual operational tasks",
         "Coordinated with project managers on delivery commitments",
         "Mentored junior administrators on system operations"
+      ]
+    },
+    {
+      "company": "Bharti Airtel",
+      "role": "DSL Officer / System Administrator",
+      "duration": "Jan 2006 – Feb 2007",
+      "responsibilities": [
+        "Administered Linux servers and DSL routers for broadband services"
       ]
     }
   ],
@@ -596,7 +604,7 @@
     ]
   },
   "leadership": {
-    "headline": "19+ years leading engineers, programmes, and enterprise transformation",
+    "headline": "20+ years leading engineers, programmes, and enterprise transformation",
     "team_leadership": {
       "summary": "Built and led cross-functional engineering teams spanning cloud, infrastructure, automation, and AI disciplines — across geographies from India and UK to Africa and Europe.",
       "highlights": [
