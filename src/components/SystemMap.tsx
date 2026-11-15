@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
+import { Portrait } from "@/components/Portrait";
 
 const NODES = [
   { id: "center",  x: 220, y: 200, r: 32, label: "PC",         sub: "19+ Yrs Architect",  color: "#3B82F6", isCenter: true,  stats: null },
@@ -39,7 +40,7 @@ export function SystemMap() {
   const hoveredNode = NODES.find(n => n.id === hovered);
 
   return (
-    <div className="relative w-full" style={{ height: 430 }}>
+    <div className="relative w-full" style={{ height: "clamp(300px, 85vw, 430px)" }}>
       {/* Always-dark visualization panel */}
       <div
         className="absolute inset-0 rounded-2xl"
@@ -154,23 +155,31 @@ export function SystemMap() {
             >
               {node.label}
             </text>
-            {/* Sub-label */}
-            <text
-              x={node.x}
-              y={node.y + node.r + 14}
-              textAnchor="middle"
-              style={{
-                fill: "rgba(148,163,184,0.72)",
-                fontSize: 7.5,
-                pointerEvents: "none",
-                fontFamily: "system-ui, sans-serif",
-              }}
-            >
-              {node.sub}
-            </text>
+            {!node.isCenter && (
+              <text
+                x={node.x}
+                y={node.y + node.r + 14}
+                textAnchor="middle"
+                style={{
+                  fill: "rgba(148,163,184,0.72)",
+                  fontSize: 7.5,
+                  pointerEvents: "none",
+                  fontFamily: "system-ui, sans-serif",
+                }}
+              >
+                {node.sub}
+              </text>
+            )}
           </motion.g>
         ))}
       </svg>
+
+      <div
+        className="hero-profile-hub absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2"
+      >
+        <span className="hero-profile-halo" aria-hidden="true" />
+        <Portrait variant="hub" />
+      </div>
 
       {/* Hover tooltip */}
       <AnimatePresence>
