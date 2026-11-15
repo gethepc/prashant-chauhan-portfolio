@@ -1,6 +1,17 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import profileData from "@/data/profile.json";
 import { ArrowLeft, Briefcase, MapPin } from "lucide-react";
+import { siteUrl } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "Career Experience | Prashant Chauhan",
+  description:
+    "Explore Prashant Chauhan's 20+ year career across IBM Cloud, Bharti Airtel, Airtel Africa, Landis+Gyr, Orange Business, and Tech Mahindra.",
+  alternates: {
+    canonical: siteUrl("/experience"),
+  },
+};
 
 const GEO: Record<string, string> = {
   "IBM Cloud":                "Bengaluru, India",

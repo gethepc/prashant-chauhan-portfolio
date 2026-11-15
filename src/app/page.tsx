@@ -14,10 +14,35 @@ import { Skills } from "@/components/Skills";
 import { Certifications } from "@/components/Certifications";
 import { ThoughtLeadership } from "@/components/ThoughtLeadership";
 import { Contact } from "@/components/Contact";
+import profileData from "@/data/profile.json";
+import { siteUrl } from "@/lib/site";
 
 export default function Home() {
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${siteUrl()}#person`,
+    name: profileData.name,
+    url: siteUrl(),
+    image: siteUrl("prashant-chauhan.jpg"),
+    jobTitle: "Senior Cloud Platform Architect",
+    description: profileData.summary,
+    worksFor: {
+      "@type": "Organization",
+      name: "IBM Cloud",
+    },
+    sameAs: [profileData.contact.linkedin, profileData.contact.github],
+    knowsAbout: profileData.positioning.core_strengths,
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(personSchema).replace(/</g, "\\u003c"),
+        }}
+      />
       <Navbar />
       <main>
         <Hero />

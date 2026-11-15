@@ -1,7 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import profileData from "@/data/profile.json";
 import { ArrowLeft } from "lucide-react";
 import { Portrait } from "@/components/Portrait";
+import { siteUrl } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "About Prashant Chauhan | Cloud & AI Platform Architect",
+  description:
+    "Learn about Prashant Chauhan's 20+ years in cloud platform architecture, AI-driven operations, enterprise automation, and transformation leadership.",
+  alternates: {
+    canonical: siteUrl("/about"),
+  },
+};
 
 const PILLARS = [
   {

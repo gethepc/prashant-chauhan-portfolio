@@ -1,7 +1,9 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import profileData from "@/data/profile.json";
 import { ArrowLeft, CheckCircle2, Layers } from "lucide-react";
+import { siteUrl } from "@/lib/site";
 
 const SLUG_MAP: Record<string, string> = {
   ihs:        "IHS (Intelligent Healing Solution)",
@@ -13,6 +15,33 @@ const SLUG_MAP: Record<string, string> = {
 const ACCENT: Record<string, string> = {
   ihs: "#22D3EE", finops: "#d4af37", afa: "#8B5CF6", fluxcampus: "#22D3EE",
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const projectName = SLUG_MAP[id];
+  const project = profileData.projects.find((item) => item.project_name === projectName);
+
+  if (!project) {
+    return {};
+  }
+
+  return {
+    title: `${project.project_name} | Prashant Chauhan`,
+    description: project.description,
+    alternates: {
+      canonical: siteUrl(`/projects/${id}`),
+    },
+    openGraph: {
+      title: `${project.project_name} | Prashant Chauhan`,
+      description: project.description,
+      type: "article",
+    },
+  };
+}
 
 export default async function ProjectPage({
   params,

@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
+import { siteUrl, SITE_URL } from "@/lib/site";
 import "./globals.css";
-
-const basePath =
-  process.env.NODE_ENV === "production" ? "/prashant-chauhan-portfolio" : "";
-const siteOrigin = "https://gethepc.github.io";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -17,13 +14,20 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("/prashant-chauhan-portfolio", siteOrigin),
-  title: "Prashant Chauhan | Senior Cloud Platform Architect",
-  description: "Senior Cloud Platform Architect at IBM Cloud. 20+ years designing secure, resilient platforms, secrets management, FinOps, and AI-assisted operations.",
+  metadataBase: new URL(SITE_URL),
+  title: "Prashant Chauhan | Senior Cloud Platform Architect & AI Automation Leader",
+  description:
+    "Prashant Chauhan is a Bengaluru-based Senior Cloud Platform Architect at IBM Cloud with 20+ years in multi-cloud, AI automation, AIOps, security, and FinOps.",
+  alternates: {
+    canonical: SITE_URL,
+  },
   openGraph: {
-    title: "Prashant Chauhan | Senior Cloud Platform Architect",
-    description: "Senior Cloud Platform Architect at IBM Cloud.",
-    images: [new URL(`${basePath}/prashant-chauhan.jpg`, siteOrigin)],
+    type: "profile",
+    url: SITE_URL,
+    title: "Prashant Chauhan | Senior Cloud Platform Architect & AI Automation Leader",
+    description:
+      "Bengaluru-based cloud and AI architect with 20+ years designing secure, resilient enterprise platforms.",
+    images: [siteUrl("prashant-chauhan.jpg")],
   },
 };
 

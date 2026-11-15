@@ -1,6 +1,17 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import profileData from "@/data/profile.json";
 import { ArrowLeft, Award } from "lucide-react";
+import { siteUrl } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "Certifications | Prashant Chauhan",
+  description:
+    "Cloud, AI, security, and delivery certifications held by Prashant Chauhan, including Google Cloud, Azure, AWS, Red Hat, and VMware credentials.",
+  alternates: {
+    canonical: siteUrl("/certifications"),
+  },
+};
 
 const PROVIDER_META: Record<string, { label: string; color: string }> = {
   google_cloud: { label: "Google Cloud",        color: "#4285F4" },
